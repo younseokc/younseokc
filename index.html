@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>퍼블리셔 최윤석입니다.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--    반응형 css link 시작-->
+    <link rel="stylesheet" href="css/media-query.css">
+    <!--    반응형 css link 끝-->
+    <link rel="stylesheet" href="//cdn.rawgit.com/hiun/NanumSquare/master/nanumsquare.css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            var nav = $('.navbar-inverse');
+
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 650) {
+                    nav.addClass("fixed-nav");
+                } else {
+                    nav.removeClass("fixed-nav");
+                }
+            });
+        })
+    </script>
+    <script>
+        $(document).ready(function() {
+
+        })
+    </script>
+
+</head>
+	
+
+<body>
+
+    <header class="header">
+       <img src="img/bubble-speech.png" alt="">
+        <h1 class="typo-title">
+            <span class="typer" id="some-id" data-delay="100" data-delim=":" data-words="UI/UX DESIGNER:and:PUBULISHER" data-colors="#324155"></span>
+            <span class="cursor" data-cursorDisplay="_" data-owner="some-id"></span>
+            최윤석입니다.
+        </h1>
+        <div class="dot-ani"></div>
+    </header>
+
+    <!--    네비게이션 시작-->
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>                        
+      </button>
+                <a class="navbar-brand" href="#">WebSiteName</a>
+            </div>
+            <div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#section1">Section 1</a></li>
+                        <li><a href="#section2">Section 2</a></li>
+                        <li><a href="#section3">Section 3</a></li>
+                        <li><a href="#section4">Section 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--    네비게이션 끝-->
+
+    <!--    첫번째 섹션 시작-->
+    <section class="first-section" id="section1">
+        <h2>기획부터 철저히 진행합니다.</h2>
+        <p>철저한 기획과 다양한 레퍼런스를 통해 창의적인 디자인과 철저한 코딩까지 진행합니다.</p>
+        <div class="first-section-approach">
+            <div class="approach-left">
+                <span>My Approach</span>
+                <hr>
+            </div>
+            <div class="approach-symbol">
+                <div class="approach-symbol-1"><img src="img/RESEARCH.png" alt=""><span>RESEARCH</span></div>
+                <div class="approach-symbol-2"><img src="img/CONCEPT.png" alt=""><span>CONCEPT</span></div>
+                <div class="approach-symbol-3"><img src="img/PROTOTYPING.png" alt=""><span>PROTOTYPING</span></div>
+                <div class="approach-symbol-4"><img src="img/UI-DESIGN.png" alt=""><span>UI DESIGN</span></div>
+                <div class="approach-symbol-5"><img src="img/DEVELOPMENT.png" alt=""><span>DEVELOPMENT</span></div>
+            </div>
+        </div>
+    </section>
+    <section class="parallax second-section" id="section2">
+        <div class="second-section-opacity">
+            <p>SKILL</p>
+            <hr>
+            <div class="container row row-first-wrap">
+                <div class="col-sm-6">
+                    <div class="square"><img src="img/planning.png" alt="planning-symbol" class="planning-symbol"></div>
+                    <span class="skill-title">기획</span>
+                    <span>게임 기획자 출신 답게 철저한 기획과 완벽한 스타일가이드까지 진행합니다.</span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="square"><img src="img/html:css.png" alt=""></div>
+                    <span class="skill-title">HTML/CSS</span>
+                    <span>시맨틱 태그부터 아름다운 애니메이션까지 생각하는 모든 것들을 구현합니다.</span>
+                </div>
+            </div>
+            <div class="container row row-second-wrap">
+                <div class="col-sm-6">
+                    <div class="square"><img src="img/javascript.png" alt=""></div>
+                    <span class="skill-title">JAVASCRIPT/J-QUERY</span>
+                    <span>플러그인을 사용하는 것과 간단한 코드 해독까지 가능합니다.</span>
+                </div>
+                <div class="col-sm-6">
+                    <div class="square"><img src="img/sketch.png" alt=""></div>
+                    <span class="skill-title">DESIGN</span>
+                    <span>skech와 plento를 사용하여 프로토타이핑까지 앱/웹 가리지 않고 디자인합니다.</span>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="third-section">
+        <p class="third-section-title">ABOUT ME</p>
+        <hr>
+        <p class="third-section-content">
+            익숙하지만 새로운 것을 만드는 것을 보람으로 삼고 있는 퍼블리셔 최윤석입니다.<br>
+            경력은 길지 않지만 오랜 기간 it 팀 프로젝트를 진행함으로 어떻게 프로젝트가 진행되는가 몸으로 익혀왔습니다.<br>반드시 도움이 될 것입니다. 언제든 연락주세요.
+        </p>
+
+        <div class="container third-section-wrap">
+
+            <div class="col-md-4 third-section-left">
+                <p class="third-section-left-title">GENERAL-INFORMATION</p>
+                <ul>
+                    <li><span>NAME &emsp;&emsp;&ensp;&ensp;&ensp;:</span>
+                        <span class="general-content"> 최윤석</span></li>
+                    <li><span>BIRTHDATE&ensp;:</span>
+                        <span class="general-content"> 19-11-1986</span></li>
+                    <li><span>PHONE &emsp;&emsp;&ensp;:</span>
+                        <span class="general-content"> 010-4860-1359</span></li>
+                    <li><span>E-MAIL &emsp;&emsp;&ensp;:</span>
+                        <span class="general-content"> cafebom@gmail.com</span></li>
+                    <li><button class="btn btn-default">
+                    <span class="glyphicon glyphicon-save-file"></span><a href=""></a>DOWNLOAD RESUME</button></li>
+                </ul>
+
+            </div>
+
+
+            <div class="col-md-8 container third-section-right">
+                <p class="thitd-section-right-title">HOBBIES & INTERESTS</p>
+                <div class="row">
+                    <div class="col-md-4"><img src="img/coffee-addict.png" alt="커피중독자"><span>커피 중독자</span></div>
+                    <div class="col-md-4"><img src="img/code-review.png" alt="새로운툴 중독자"><span>새로운 툴 집착자</span></div>
+                    <div class="col-md-4 baseball"><img src="img/han-hwa.png" alt="한화팬.."><span>4년째 한화팬..</span></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"><img src="img/crossfit.png" alt="corssfit"><span>7개월차 크로스피터</span></div>
+                    <div class="col-md-4"><img src="img/joke.png" alt="joke"><span>실없는 농담좋아함</span></div>
+                    <div class="col-md-4"><img src="img/game.png" alt="game"><span>기획자 출신치고 게임못함</span></div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="fourth-section">
+        <div class="container">
+            <div class="page-header">
+                <h1 id="timeline">EXPERIENCES</h1>
+                <hr>
+            </div>
+            <ul class="timeline">
+                <li>
+                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">웹게임 파툼</h4>
+                            <p><small class="text-muted">2013.7-2014.5 (파비욘드더게임)</small></p>
+                        </div>
+                        <div class="timeline-body">
+                            <p>UI<br>① 싱글,멀티 보상관련 등 UI기획<br>② 수색맵 기획 및 작업</p>
+                            <p>AD/PM<br>① 세계관 설정 및 시나리오 초안 마련<br>② 그래픽 팀 업무 조율 및 세부 일정 관리 <br>③ 게임 LOOK & FEEL 관리 </p>
+                        </div>
+                    </div>
+                </li>
+                <li class="timeline-inverted">
+                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">모바일 게임 롤링플래닛</h4>
+                            <p><small class="text-muted">2011.7-2013.6 (파비욘드더게임)</small></p>
+
+                        </div>
+                        <div class="timeline-body">
+                            <p>① 카카오 입점 및 런칭 담당 및 각 파트 별로 업무 방향성 제시 및 진행 <br>② 런칭 일정 계획 수립 <br>③ 퍼블리셔와 개발사 간 협의 및 의견 조정 <br>④ 총괄 UI 시스템 기획 및 튜토리얼 기획.</p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="timeline-badge danger"><i class="glyphicon glyphicon-check"></i></div>
+                    <div class="timeline-panel">
+                        <div class="timeline-heading">
+                            <h4 class="timeline-title">카페 쓰리고 홈페이지 제작 진행</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p>기획<br>① SWOT 분석을 통해 해당 업체 강,약점 분석<br>② 해당 업체에 맞는 UI 및 UX 디자인 및 설계 <br><br> 코딩<br>① html/css를 통해 홈페이지 구축<br>② jquery 및 javascript를 통해 슬라이드 구축</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+    </section>
+    <section class="fifth-section">
+        <p class="fifth-section-title">MY-WORK</p>
+        <hr>
+        <div class="container fifth-section-my-work">
+
+
+            <div class="col-md-4 my-work-wrap">
+                <div class="my-work-content content-3go">
+                    <img src="img/3go-page.png" alt="" class="three-go-screen">
+                    <img src="img/3go-hover.png" alt="" class="hover">
+                </div>
+
+                <div class="my-work-text">
+                    <div class="work-text-title">
+                        <p class="work-text">카페 쓰리고 제작</p><span>PC / MOBILE</span>
+                    </div>
+                    <hr>
+                    <div class="work-text-title-content">
+                        <p style="margin-top: 0px; margin-bottom: 0px;">소상공 카페를 직접 접촉하여 해당 카페의 특장점을 swot분석을 통해 컬러와 강조시킬 점을 부각시켰습니다.</p>
+                    </div>
+                    <button class="btn btn-default download-btn">
+                    <span class="glyphicon glyphicon-saved"></span><a href=""></a> 기획서 받기</button>
+                    <button class="btn btn-default link-btn">
+                    <span class="glyphicon glyphicon-link"></span><a href=""></a> 페이지 보기</button>
+                    
+                    </div>
+            </div>
+
+            <div class="col-md-4 my-work-wrap">
+                <div class="my-work-content content-3go">
+                    <img src="img/han-sae-gim.png" alt="" class="thrree-go-screen">
+                    <img src="img/han-sae-gim-hover.png" alt="" class="hover">
+                </div>
+
+                <div class="my-work-text">
+                    <div class="work-text-title">
+                        <p class="work-text">한새김 앱 기획</p><span>APP</span>
+                    </div>
+                    <hr>
+                     <div class="work-text-title-content">
+                        <p style="margin-top: 0px; margin-bottom: 0px;">네이버 한글 앱 공모전을 위해 진행 되었던 앱 기획입니다. 안타깝게도 2차 본선에서 탈락되었지만 처음으로 해본 기획이라 뜻 깊었습니다.</p>
+                    </div>
+                    <button class="btn btn-default download-btn">
+                    <span class="glyphicon glyphicon-saved"></span><a href=""></a> 기획서 받기</button>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-work-wrap">
+                <div class="my-work-content content-3go">
+                    <img src="img/3go-page.png" alt="" class="thrree-go-screen">
+                    <img src="img/3go-hover.png" alt="" class="hover">
+                </div>
+
+                <div class="my-work-text">
+                    <div class="work-text-title">
+                        <p class="work-text">CAFE 3GO</p><span>PC / MOBILE</span>
+                    </div>
+                    <hr>
+                    <p class="work-text-title-content">ddd</p>
+                </div>
+            </div>
+
+
+
+        </div>
+        <div class="aint-over">
+            <img src="img/YogiBerra.png" alt="yogiberra">
+            <p>it ain't over till it's over</p>
+        </div>
+
+    </section>
+    <footer class="footer">
+        <ul class="footer-thanks">
+            <li>해당 페이지를 만들때 사용된 것들</li>
+            <li>Design : sketch</li>
+            <li>EDITOR : bracket</li>
+            <li>html/css/javascirpt/jquery/bootstrap3</li>
+            <li>커피 15잔, 언니네이발관 앨범들</li>
+            <li><a href="">해당 페이지의 코드를 받고 싶다면 이곳으로 눌러주세요.</a></li>
+        </ul>
+        <ul class="footer-contact">
+            <li>연락처</li>
+            <li>전화번호 : 010-4860-1359</li>
+            <li>이메일 : cafebom@gmail.com</li>
+            <li>카카오톡 : cafevom</li>
+        </ul>
+
+    </footer>
+
+
+    <!--    스크립트 파일-->
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script src="js/typer.js"></script>
+</body>
+
+</html>

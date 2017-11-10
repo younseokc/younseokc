@@ -1,0 +1,356 @@
+@media only screen and (min-width:1025px) and (max-width:1224px) {
+    /*    첫번째 섹션 시작*/
+    .first-section {
+        height: 430px;
+    }
+    .first-section-approach {
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        height: 200px;
+        bottom: 50px;
+    }
+    .approach-symbol > div {
+        height: 90%;
+    }
+    .approach-left > hr {
+        display: none;
+    }
+    /*    첫번째 섹션 끝*/
+    /*    두번째 섹션 시작*/
+    .row-first-wrap,
+    .row-second-wrap {
+        height: 150px;
+        width: 92%;
+        margin-left: 4%;
+        margin-top: 80px;
+    }
+    .row-first-wrap > .col-sm-6 > .skill-title,
+    .row-second-wrap > .col-sm-6 > .skill-title {
+        font-size: 22px;
+    }
+    .row-first-wrap > .col-sm-6 > span,
+    .row-second-wrap > .col-sm-6 > span {
+        display: inline-block;
+        width: 66%;
+        font-size: 18px;
+        font-family: 'NanumSquareWeb';
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    /*    두번째 섹션 끝*/
+    /*    마지막 섹션 시작*/
+    .fifth-section > .fifth-section-my-work {
+        width: 93%;
+        height: 550px;
+    }
+    .fifth-section > .aint-over {
+        margin-top: 60px;
+    }
+    /*    마지막 섹션 끝*/
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1024px) {
+    .first-section {
+        height: 400px;
+    }
+    .third-section > .third-section-content {
+        font-size: 20px;
+        width: 70%;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+    .first-section > .first-section-approach {
+        width: 80%;
+        left: 10%;
+        height: 150px;
+        bottom: 60px;
+    }
+    .first-section > .first-section-approach > .approach-left {
+        width: 22%;
+        padding-right: 20px;
+        padding-top: 20px
+    }
+    .first-section > .first-section-approach > .approach-left > span {
+        font-size: 19px;
+    }
+    .approach-left > hr {
+        display: none;
+    }
+    .first-section > .first-section-approach > .approach-symbol {}
+    .first-section > .first-section-approach > .approach-symbol > div {
+        height: 95%;
+    }
+    .first-section > .first-section-approach > .approach-symbol > div > span {
+        font-size: 16px;
+    }
+    /*    첫번째 세션 끝*/
+    /*    두번째 섹션 시작*/
+    .second-section {}
+    .second-section > .second-section-opacity > .row-first-wrap,
+    .row-second-wrap {
+        margin-top: 20px;
+        text-align: center;
+    }
+    .second-section-opacity > .row-first-wrap,
+    .row-second-wrap {
+        margin-top: 40px;
+    }
+    .row-first-wrap > .col-sm-6,
+    .row-second-wrap > .col-sm-6 {
+        margin-top: 20px;
+    }
+    .row-first-wrap > .col-sm-6 > .square,
+    .row-second-wrap > .col-sm-6 > .square {
+        float: none;
+        width: 120px;
+        height: 120px;
+    }
+    .row-first-wrap > .col-sm-6 > .skill-title,
+    .row-second-wrap > .col-sm-6 > .skill-title {
+        font-size: 17px;
+    }
+    .row-first-wrap > .col-sm-6 > span,
+    .row-second-wrap > .col-sm-6 > span {
+        font-size: 15px;
+    }
+    /*    두번째 섹션 끝*/
+    /*    세번째 섹션 시작*/
+    .third-section {
+        height: 1200px;
+    }
+    .third-section > .third-section-wrap {
+        width: 100%;
+        height: 500px;
+        margin-top: 78px;
+        padding: 0px;
+        /*    세번째 섹션 끝*/
+    }
+    .third-section > .third-section-wrap > .third-section-left {
+        width: 50%;
+        height: 50%;
+        margin-left: 25%;
+        margin-bottom: 100px;
+        text-align: center;
+    }
+    .third-section > .third-section-wrap > .third-section-left > ul {
+        list-style: none;
+        padding: 0px;
+        font-size: 17px;
+        padding-top: 30px;
+        display: inline-block;
+        margin: 0;
+    }
+
+    /*    세번째 섹션 심볼*/
+    .third-section > .third-section-wrap > .third-section-right {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 90px;
+    }
+    .third-section > .third-section-wrap > .third-section-right > .row {
+        width: 60%;
+        height: auto;
+        margin-left: 20%;
+        margin-right: 20%;
+        margin-top: 35px;
+    }
+    .third-section > .third-section-wrap > .third-section-right > .row > .col-md-4 {
+        width: 29.8%;
+        height: 100%;
+        margin-left: 15px;
+        float: left;
+    }
+
+    /*    마지막 섹션 시작*/
+    .fifth-section > .fifth-section-my-work {
+        width: 93%;
+        height: 450px;
+    }
+    .fifth-section > .aint-over {
+        margin-top: 60px;
+    }
+    /*    마지막 섹션 끝*/
+}
+
+
+
+
+
+@media only screen and (min-width:440px) and (max-width:767px) {
+
+
+    /*    첫번째 랩 시작*/
+    .first-section {
+        height: 600px;
+    }
+    .first-section > h2 {
+        font-size: 2em;
+    }
+    .first-section > p {
+        font-size: 1em;
+    }
+    .first-section-approach {
+        width: 100%;
+        position: relative;
+        height: 470px;
+        left: 0px;
+        bottom: 0px;
+
+    }
+    .approach-left {
+        position: relative;
+        height: 0px;
+        bottom: 0px;
+        margin: 0 auto;
+        text-align: center;
+        width: 30%;
+    }
+    .approach-left > span {
+        font-size: 23px;
+        margin-top: 19px;
+    }
+    .approach-left > hr {
+        display: none;
+    }
+    .approach-symbol {
+        height: 100px;
+        width: 100%;
+        bottom: 0px;
+    }
+    .approach-symbol > div {
+        width: 30%;
+        height: 100%;
+        margin-left: 3.3%;
+        margin-left: 1.5%;
+        margin-right: 0.5%;
+    }
+    .approach-symbol > .approach-symbol-4,
+    .approach-symbol > .approach-symbol-5 {
+        margin-top: 50px;
+    }
+    .approach-symbol > div > img {
+        height: 80%;
+    }
+    .approach-symbol > div > span {
+        font-size: 13px;
+    }
+    /*    첫번째 랩 끝*/
+    /*    두번째 섹션 시작*/
+    .second-section,
+    .parallax {
+        height: 700px;
+    }
+    .second-section-opacity > p {
+        font-size: 2.3em;
+    }
+    .row-first-wrap,
+    .row-second-wrap {
+        width: 100%;
+        margin-left: 0%;
+        margin-top: 7px;
+        height: 280px;
+    }
+    .row-first-wrap > .col-sm-6,
+    .row-second-wrap > .col-sm-6 {
+        height: 140px;
+        margin-top: 10px;
+    }
+    .row-first-wrap > .col-sm-6 > .square,
+    .row-second-wrap > .col-sm-6 > .square {
+        width: 90px;
+        height: 90px;
+        margin-top: 25px;
+    }
+    .row-first-wrap > .col-sm-6 > .skill-title,
+    .row-second-wrap > .col-sm-6 > .skill-title {
+        font-size: 24px;
+    }
+    .row-first-wrap > .col-sm-6 > span,
+    .row-second-wrap > .col-sm-6 > span {
+        font-size: 19px;
+        width: 70%;
+    }
+    /*    두번째 섹션 끝*/
+    /*    세번쨰 섹션 시작*/
+    .third-section {
+        height: 1150px;
+    }
+    .third-section > .third-section-title {
+        font-size: 2.3em;
+    }
+
+    .third-section > .third-section-wrap {
+        width: 100%;
+        height: 500px;
+        margin-top: 60px;
+        padding: 0px;
+    }
+    .third-section > .third-section-content {
+        font-size: 19px;
+        width: 80%;
+    }
+    .third-section > .third-section-wrap > .third-section-left {
+        width: 80%;
+        height: 50%;
+        margin-left: 10%;
+        margin-bottom: 100px;
+    }
+    .third-section > .third-section-wrap > .third-section-left > .third-section-left-title,
+    .third-section > .third-section-wrap > .third-section-right > .thitd-section-right-title {
+        font-size: 20px;
+        text-align: center;
+    }
+    .third-section > .third-section-wrap > .third-section-left > ul {
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        list-style: none;
+        padding: 0px;
+        font-size: 17px;
+        padding-top: 30px;
+        display: inline-block;
+    }
+
+    /*    세번째 섹션 심볼*/
+    .third-section > .third-section-wrap > .third-section-right {
+        width: 100%;
+        height: 100%;
+        display: inline-block;
+        text-align: center;
+        margin-top: 60px;
+    }
+    .third-section > .third-section-wrap > .third-section-right > .row {
+        width: 100%;
+        height: auto;
+        margin-top: 35px;
+    }
+    .third-section > .third-section-wrap > .third-section-right > .row > .col-md-4 {
+        width: 29%;
+        height: 100%;
+        margin-left: 15px;
+        float: left;
+    }
+
+    /*    세번쨰 섹션 끝*/
+    /*    네번째 섹션 시작*/
+    .fourth-section {
+
+        width: 100%;
+        height: 900px;
+        background: #F7F6F7;
+        overflow: hidden;
+
+    }
+    .timeline-title{
+        font-size: 14px;
+    }
+    .timeline-body{
+        font-size: 12px;
+    }
+    /*    네번째 섹션 끝*/
+}
