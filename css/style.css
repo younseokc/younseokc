@@ -19,12 +19,36 @@
 }
 
 
-.header > h1 {
-}
 
 
 /*헤더 > 네비 시작*/
+.header > h1 {
+    display: block;
+    text-align: center;
+    font-size: 7em;
+    font-family: 'NanumSquare';
+    font-weight: bold;
+    color: #324155;
+    margin-top: 0px;
+    position: relative;
+    top: 40%
+}
 
+
+.typo-title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 300px;
+    width: 50%;
+    margin-left: 25%;
+    font-family: 'NanumSquare';
+    font-weight: bold;
+}
+
+.typo-title > .typer {
+    font-size: 2.5em;
+
+}
 .fixed-nav {
     z-index: 9999;
     position: fixed;
@@ -48,20 +72,6 @@
     margin-bottom: 0px;
 }
 
-.typo-title {
-    display: inline-block;
-    text-align: center;
-    margin-top: 450px;
-    width: 50%;
-    margin-left: 25%;
-    font-family: 'NanumSquare';
-    font-weight: bold;
-}
-
-.typo-title > .typer {
-    font-size: 1em;
-
-}
 
 .dot-ani {
     width: 10px;
@@ -427,7 +437,7 @@
 
 .fourth-section {
     width: 100%;
-    height: 850px;
+    height: 900px;
     background: #F7F6F7;
     overflow: hidden;
 }
@@ -648,7 +658,7 @@
     width: 100%;
     height: 200px;
     margin-top: 28px;
-    border: 1px solid black;
+/*    border: 1px solid black;*/
     position: relative;
 }
 
@@ -718,9 +728,9 @@
 
 .fifth-section-my-work > .my-work-wrap > .my-work-text > .work-text-title > span {
     position: relative;
-    top: 12px;
+    top: 15px;
     left: 10px;
-    font-size: 19px;
+    font-size: 16px;
     color: gray;
     font-family: 'NanumSquareWeb';
 }
