@@ -33,10 +33,12 @@
     border-style: none;
     margin-bottom: 0px;
 }
-.header> img{
+.header> .younseokc{
     position: absolute;
     top: 0px;
-    right: 200px;
+    width: 70%;
+    left: 15%;
+    top: 10%;
 }
 
 .typo-title {
