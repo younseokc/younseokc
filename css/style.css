@@ -691,15 +691,14 @@
 
 .download-btn {
     right: 0px;
-    background-color: brown;
+    background-color: #ED645A;
     color: white;
     border-style: none;
-    transition: background-color 0.2s ease;
-    transition: color 0.2s ease;
+    transition: background-color 0.5s ease;
 }
 
 .download-btn:hover {
-    background-color: #EC2027;
+    background-color: #F42727;
     color: white;
 }
 
