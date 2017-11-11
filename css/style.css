@@ -772,7 +772,7 @@
 /*각각 포트폴리오 이미지 및 텍스트 설명 끝*/
 
 .aint-over {
-    position: relative;
+    position: absolute;
     width: 100%;
     text-align: center;
     margin-top: 29px;
