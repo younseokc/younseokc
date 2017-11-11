@@ -204,7 +204,7 @@
     }
     .fifth-section-my-work {
 	width: 100%;
-        height: 2490px
+    height: 2480px
 }
     .fifth-section-my-work > .my-work-wrap {
         width: 77.5%;
@@ -216,6 +216,9 @@
         width:600px;
         height: auto;
         margin: 0 auto;
+    }
+    .aint-over{
+        margin-top: 20px;
     }
     /*    마지막 섹션 끝*/
 }
