@@ -10,6 +10,9 @@
         height: 200px;
         bottom: 50px;
     }
+    .approach-symbol {
+        height: 80%;
+    }
     .approach-symbol > div {
         height: 90%;
     }
@@ -39,22 +42,44 @@
         margin-left: 10px;
     }
     /*    두번째 섹션 끝*/
-    /*    마지막 섹션 시작*/
-    .fifth-section > .fifth-section-my-work {
-        width: 93%;
-        height: 550px;
+    /*    세번째 섹션 시작*/
+    .third-section > .third-section-content {
+        font-size: 19px;
     }
-    .fifth-section > .aint-over {
-        margin-top: 60px;
+    /*    세번째 섹션 끝*/
+    /*    마지막 섹션 시작*/
+    .fifth-section-my-work {
+        width: 1025px;
+    }
+    .fifth-section-my-work > .my-work-wrap > .my-work-content {
+        height: 320px;
+    }
+    .fifth-section-my-work > .my-work-wrap > .my-work-text > .work-text-title > .work-text {
+        font-size: 26px;
+    }
+    .fifth-section-my-work > .my-work-wrap > .my-work-text > .work-text-title > span {
+        font-size: 15px;
+    }
+    .download-btn,
+    .link-btn {
+        bottom: 10px;
     }
     /*    마지막 섹션 끝*/
 }
 
 
 @media only screen and (min-width:768px) and (max-width:1024px) {
+    /*    헤더 시작*/
+    .header > h1 {
+        font-size: 6em;
+    }
+    /*    헤더 끝*/
+    /*    첫번째 섹션 시작*/
     .first-section {
         height: 400px;
     }
+
+    /*첫번째 섹션 끝*/
     .third-section > .third-section-content {
         font-size: 20px;
         width: 70%;
@@ -98,6 +123,11 @@
     .row-second-wrap {
         margin-top: 40px;
     }
+    .row-first-wrap,
+    .row-second-wrap {
+        width: 94%;
+        margin-left: 3%;
+    }
     .row-first-wrap > .col-sm-6,
     .row-second-wrap > .col-sm-6 {
         margin-top: 20px;
@@ -111,10 +141,12 @@
     .row-first-wrap > .col-sm-6 > .skill-title,
     .row-second-wrap > .col-sm-6 > .skill-title {
         font-size: 17px;
+        margin-left: 0px;
     }
     .row-first-wrap > .col-sm-6 > span,
     .row-second-wrap > .col-sm-6 > span {
         font-size: 15px;
+        width: 85%;
     }
     /*    두번째 섹션 끝*/
     /*    세번째 섹션 시작*/
@@ -167,12 +199,23 @@
     }
 
     /*    마지막 섹션 시작*/
-    .fifth-section > .fifth-section-my-work {
-        width: 93%;
-        height: 450px;
+    .fifth-section {
+        height: 2750px;
     }
-    .fifth-section > .aint-over {
-        margin-top: 60px;
+    .fifth-section-my-work {
+	width: 100%;
+        height: 2490px
+}
+    .fifth-section-my-work > .my-work-wrap {
+        width: 77.5%;
+        height: 850px;
+        margin-left: 12.5%;
+        margin-bottom: 2%;
+    }
+    .fifth-section-my-work > .my-work-wrap > .my-work-content{
+        width:600px;
+        height: auto;
+        margin: 0 auto;
     }
     /*    마지막 섹션 끝*/
 }
@@ -181,7 +224,7 @@
 
 
 
-@media only screen and (min-width:440px) and (max-width:767px) {
+@media only screen and (min-width:400px) and (max-width:767px) {
 
 
     /*    첫번째 랩 시작*/
@@ -346,10 +389,10 @@
         overflow: hidden;
 
     }
-    .timeline-title{
+    .timeline-title {
         font-size: 14px;
     }
-    .timeline-body{
+    .timeline-body {
         font-size: 12px;
     }
     /*    네번째 섹션 끝*/
