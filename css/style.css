@@ -7,6 +7,11 @@
     url(NanumSquareR.ttf);
     /* 다섯번째 */
 }
+body{
+    position: relative;
+    min-width: 400px;
+    max-width: 1920px;
+}
 
 /*헤더 시작*/
 
