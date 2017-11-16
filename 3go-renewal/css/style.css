@@ -1,0 +1,14 @@
+body {
+    font-family: 'NanumSquare', 'Open Sans', sans-serif;
+}
+h1{
+    font-family: 'Open Sans';
+}
+h2{
+    font-family: 'NanumSquare';
+    font-weight: 800;
+}
+h3{
+    font-family: 'NanumSquare';
+    font-weight: 400;
+}
