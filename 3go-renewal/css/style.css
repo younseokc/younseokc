@@ -1,10 +1,11 @@
 body {
     font-family: 'NanumSquare', 'Open Sans', sans-serif;
 }
-header{
+
+header {
     width: 100%;
     height: 900px;
-    background-image: url('../img/header-photo.png');
+    background: url('../img/header-photo.png');
     color: white;
     background-attachment: fixed;
     background-position: center;
@@ -13,9 +14,178 @@ header{
 
 }
 
+/*nav start*/
+.navbar{
+    margin-top: 20px;
+    background: none;
+    border: none;
+}
+
+.navbar-header {
+    padding-left: 5%;
+}
+.navbar-header > a.navbar-brand{
+	width: 73%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.navbar-header > a > img{
+    height: auto;
+    width: 100%;
+}
+.navbar-header > a > .change-logo-1 {
+    display: none;
+}
+.navbar-right{
+    padding-right: 5%;
+}
+.navbar-right > li{
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
+    color: gray;
+    background-color: transparent;
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: white;
+}
+/*nav end*/
+
+.header-logo {
+    width: 44%;
+    height: 90%;
+    margin-left: 28%;
+    margin-right: 28%;
+    position: relative;
+    text-align: center;
+    display: block;
+    top: 6%;
+}
+
+.header-logo > p {
+    font-size: 80px;
+    font-family: 'Open sans';
+    font-weight: 300;
+    position: relative;
+    top: 55px;
+    color: white;
+}
+
+.header-logo > img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15%;
+}
+
+.header-logo > span {
+    font-size: 55px;
+    display: block;
+    font-family: 'Open sans';
+    font-weight: 300;
+}
+
+.header-logo > .header-logo-made {
+    margin-top: 8%;
+    font-weight: 400;
+    font-family: 'Open sans';
+}
+
+
+/*header end*/
+
 .first-wrap {
-	width: 100%;
+    width: 100%;
     height: 900px;
-    background: red;
-    
+    background: white;
+}
+.first-wrap-content{
+    width: 70%;
+    height: 100%;
+/*    border: 1px solid black;*/
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.first-wrap-first-line{
+    width: 100%;
+    height: 45%;
+    display: block;
+    position: relative;
+}
+.first-logo {
+	width: 290px;
+    height: 290px;
+    border: 5px solid #5F5F5F;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Open sans';
+    font-weight: 300;
+    color: #5F5F5F;
+    display: inline-block;
+    float: left;
+}
+.first-logo > img{
+    width: 35%;
+    margin-top: 15%;
+}
+.first-logo > .first-logo-text{
+    margin-top: 5%;
+}
+.first-logo > p{
+    margin-bottom: 0px;
+    margin-top: 1%;
+}
+
+.first-wrap-right-text{
+    font-size: 35px;
+    color: #5F5F5F;
+    position: absolute;
+    bottom: 70px;
+    right: 0px;
+    font-weight: 500;
+}
+.first-wrap-right-text > span{
+    font-weight: bold;
+/*    display: none;*/
+    opacity: 0;
+    top: 10px;
+    position: relative;
+}
+
+.first-wrap-second-line{
+    width: 100%;
+    height: 55%;
+    position: relative;
+}
+.first-wrap-second-line > .first-wrap-second-line-left{
+    font-size: 35px;
+    color: #5F5F5F;
+    position: absolute;
+    top: 100px;
+}
+.first-wrap-second-line > .first-wrap-second-line-left >.first-wrap-second-line-text{
+    font-weight: bold;
+}
+.first-wrap-second-line > img{
+    position: absolute;
+    bottom: 10px;
+    right: 0px;
+    width: 400px;
+    height: auto;
+}
+
+/*first-wrap-end*/
+
+
+.second-wrap {
+	width: 100%;
+    height: 950px;
+    background-image: url('../img/third-wrap-bg-photo.png')
 }
