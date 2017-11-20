@@ -21,7 +21,7 @@
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
 
     <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
+    
     <script>
         $(document).ready(function() {
             $(window).scroll(function() {
@@ -43,18 +43,13 @@
             $(window).scroll(function() {
                 var scroll = $(window).scrollTop();
                 if (scroll > 800) {
-                    $(".display-none").stop().animate({
+                    $(".display-none").animate({
                         opacity: '1',
                         top: '0'
-                    }, 300);
-                } else {
-                    $(".display-none").stop().animate({
-                        opacity: '0',
-                        top: '10'
-                    }, 300);
+                    }, "slow");
                 }
             });
-        });
+        })
 
     </script>
 
@@ -69,8 +64,8 @@
 
                 <div class="navbar-header">
                     <a class="navbar-brand" href="#">
-                        <img src="img/header-people-logo.png" alt="" class="change-logo">
-                        <img src="img/header-people-logo-gray.png" alt="" class="change-logo-1">
+                    <img src="img/header-people-logo.png" alt="" class="change-logo">
+                    <img src="img/header-people-logo-gray.png" alt="" class="change-logo-1">
                     </a>
                 </div>
 
@@ -122,41 +117,9 @@
     </section>
 
     <section class="second-wrap">
-        <h1 class="second-wrap-title">3GO'S BEST MENU</h1>
-        <hr>
+    <h1>3GO'S BEST MENU</h1>
         <div class="second-wrap-content">
-
-
-            <div class="second-wrap-content-photo-1">
-                <img src="img/second-wrap-first.png" alt="">
-                <div class="second-wrap-content-photo-1-text">
-                    <p>겁나 맛있는 맥주 $10,000</p>
-                    <p>겁나 맛있는 앤주 $5,000</p>
-                </div>
-            </div>
-            <div class="second-wrap-content-photo-2">
-                <img src="img/second-wrap-second.png" alt="">
-                <div></div>
-            </div>
-            <div class="second-wrap-content-photo-3">
-                <img src="img/second-wrap-third.png" alt="">
-                <div></div>
-            </div>
-            <div class="second-wrap-content-photo-4">
-                <img src="img/second-wrap-fourth.png" alt="">
-                <div></div>
-            </div>
-            <div class="second-wrap-content-photo-5">
-                <img src="img/second-wrap-fifth.png" alt="">
-                <div></div>
-            </div>
-            <div class="second-wrap-content-photo-6">
-                <img src="img/second-wrap-sixth.png" alt="">
-                <div></div>
-            </div>
         </div>
-        
-        <button type="button" class="btn more-view-btn">VIEW MENU</button>
 
     </section>
     <section class="third-wrap">
