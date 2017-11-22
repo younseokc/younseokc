@@ -210,7 +210,7 @@ header {
 }
 
 .second-wrap > .second-wrap-title {
-    font-size: 60px;
+    font-size: 55px;
     color: white;
     font-family: 'Open sans';
     display: block;
@@ -253,7 +253,7 @@ header {
     height: 342px;
     background-color: rgba( 0, 0, 0, 0 );
     position: absolute;
-    top: 10px;
+    top: 0px;
     transition: opacity 0.5s;
     color: white;
     text-align: center;
@@ -311,4 +311,111 @@ header {
     display: block;
     margin: 0 auto;
     margin-top: 20px;
+}
+
+.second-more-wrap-menu{
+    width: 100%;
+    height: 600px;
+    background-image: url('../img/second-wrap-more-bg.png');
+    background-size: cover;
+    overflow: hidden;
+    display: none;
+}
+.second-more-wrap-menu > .menu-photo{
+    width: 30%;
+    height: 100%;
+    background: yellowgreen;
+    float: left;
+}
+
+/*second-wrap-end*/
+
+.third-wrap {
+	width: 100%;
+    height: 740px;
+}
+.third-wrap > .third-wrap-title {
+    font-size: 55px;
+    color: #5F5F5F;
+    font-family: 'Open sans';
+    display: block;
+    text-align: center;
+    position: relative;
+    font-weight: 300;
+    top: 20px;
+}
+
+.third-wrap > hr {
+    width: 140px;
+    margin-top: 45px;
+    position: relative;
+    border: 2px solid #5F5F5F;
+}
+
+
+
+ul.tabs {
+    margin: 0;
+    padding: 0;
+    float: left;
+    list-style: none;
+    height: 32px;
+    border-bottom: 1px solid #eee;
+    border-left: 1px solid #eee;
+    width: 100%;
+    font-family:"dotum";
+    font-size:12px;
+}
+ul.tabs li {
+    float: left;
+    text-align:center;
+    cursor: pointer;
+    width:33.3%;
+    height: 31px;
+    line-height: 31px;
+    border: 1px solid #eee;
+    border-left: none;
+    font-weight: bold;
+    background: #fafafa;
+    overflow: hidden;
+    position: relative;
+    margin-left: 0.033%;
+    font-size: 20px;
+    font-family: 'Open sans';
+    font-weight: 300;
+}
+ul.tabs li.active {
+    background: #FFFFFF;
+    border-bottom: 1px solid #FFFFFF;
+    color: #D25252;
+}
+.tab_container {
+    border: 1px solid #eee;
+    border-top: none;
+    clear: both;
+    float: left;
+    width: 900px;
+    background: #FFFFFF;
+}
+.tab_content {
+    padding: 5px;
+    font-size: 12px;
+    display: none;
+    width: 900px;
+}
+.tab_container .tab_content ul {
+    width:100%;
+    margin:0px;
+    padding:0px;
+}
+.tab_container .tab_content ul li {
+    padding:5px;
+    list-style:none;
+}
+
+ #container {
+    width: 900px;
+    margin: 0 auto;
+    background: #F6F5F5;
+    margin-top: 50px;
 }

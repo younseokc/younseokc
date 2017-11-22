@@ -12,51 +12,22 @@
     <link rel="stylesheet" href="../css/bootstrap.css">
     <link rel="stylesheet" href="css/style.css">
 
+    <!--    slider link-->
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <!--    slider link끝-->
+
     <!--    반응형 css link 시작-->
     <link rel="stylesheet" href="css/media-query.css">
     <!--    반응형 css link 끝-->
+
+
+
     <!--웹 폰트    -->
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="https://cdn.rawgit.com/moonspam/NanumSquare/master/nanumsquare.css">
-
-    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
-
-    <script>
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                var scroll = $(window).scrollTop();
-                if (scroll > 800) {
-                    $(".change-logo").css("display", "none");
-                    $(".change-logo-1").css("display", "block");
-                    $(".nav-text").css("color", "gray");
-                } else {
-                    $(".change-logo").css("display", "block");
-                    $(".change-logo-1").css("display", "none");
-                    $(".nav-text").css("color", "white");
-                }
-            });
-        });
-
-
-        $(document).ready(function() {
-            $(window).scroll(function() {
-                var scroll = $(window).scrollTop();
-                if (scroll > 800) {
-                    $(".display-none").stop().animate({
-                        opacity: '1',
-                        top: '0'
-                    }, 300);
-                } else {
-                    $(".display-none").stop().animate({
-                        opacity: '0',
-                        top: '10'
-                    }, 300);
-                }
-            });
-        });
-
-    </script>
+    <script type="text/javascript" src="../js/jquery-2.2.4.min.js"></script>
 
 
 </head>
@@ -155,17 +126,110 @@
                 <div></div>
             </div>
         </div>
-        
-        <button type="button" class="btn more-view-btn">VIEW MENU</button>
+        <button type="button" id="more-btn" class="btn more-view-btn">VIEW MENU</button>
 
     </section>
+    <div class="second-more-wrap-menu">
+        <div class="menu-photo"></div>
+
+    </div>
+
     <section class="third-wrap">
+        <h1 class="third-wrap-title"> 3GO'S PRODUCTS</h1>
+        <hr>
+
+
+        <div id="container">
+
+            <ul class="tabs">
+                <li class="active" rel="tab1">GOODS</li>
+                <li rel="tab2">BEAN</li>
+                <li rel="tab3">DUTCH</li>
+            </ul>
+
+            <div class="tab_container">
+                <div id="tab1" class="tab_content">
+
+                    <div class="third-wrap-products">
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- #tab1 -->
+
+                <div id="tab2" class="tab_content">
+                    <div class="third-wrap-products">
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt=""></div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt=""></div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt=""></div>
+                    </div>
+                </div>
+                <!-- #tab2 -->
+
+                <div id="tab3" class="tab_content">
+                    <div class="third-wrap-products">
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                        <div><img src="img/third-wrap-sample-photo.png" alt="">
+                            <p>가방 500000만원</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- #tab3 -->
+            </div>
+            <!-- .tab_container -->
+
+        </div>
+        <!-- #container -->
+
+
 
     </section>
+
+
 
 
     <!--    스크립트 파일-->
-    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.third-wrap-products').slick({
+                arrow:true,
+                infinite: true,
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                dots: true
+            });
+        });
+
+    </script>
+
 </body>
 
 </html>
