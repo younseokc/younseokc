@@ -169,7 +169,7 @@
                 <!-- #tab1 -->
 
                 <div id="tab2" class="tab_content">
-                    <div class="third-wrap-products">
+                    <div class="third-wrap-products-1">
                         <div><img src="img/third-wrap-sample-photo.png" alt="">
                             <p>가방 500000만원</p>
                         </div>
@@ -205,22 +205,67 @@
 
         </div>
         <!-- #container -->
+        <p>쓰리고의 GOODS 수익의 몇 프로는 노란 뭔 재단에 기부됩니다.</p>
 
+    </section>
 
+    <section class="fourth-wrap">
+        <h1>3GO'S CATERING</h1>
+        <p>케이터링은 전시장이나 세미나, 오픈행사 등 다양한 행사장에서 커피와 디저트를<br> 통해 즐거운 분위기를 유지시켜주는 역할을 하는 서비스입니다.</p>
+        <div class="container fourth-wrap-symbol">
+            <div class="col-sm-4">
+                <div class="fourth-symbol"><img src="img/fourth-wrap-symbol1.png" alt="">
+                </div>
+                <p class="symbol-title">핸드드립</p>
+                <p class="symbol-text">바리스타가 핸드드립 커피를 손수 내립니다.</p>
+
+            </div>
+            <div class="col-sm-4 col-sm-4-center">
+                <div class="fourth-symbol symbol-center"><img src="img/fourth-wrap-symbol2.png" alt="">
+                </div>
+                <p class="symbol-title">디저트</p>
+                <p class="symbol-text">샌드위치나 마카롱 같은 간단히 먹을 수 있는 디저트가 준비되어있습니다</p>
+
+            </div>
+            <div class="col-sm-4">
+                <div class="fourth-symbol"><img src="img/fourth-wrap-symbol3.png" alt="">
+                </div>
+                <p class="symbol-title">문화공연</p>
+                <p class="symbol-text">색다른 분위기를 원하시나요?쓰리고가 엄선한 다양한 문화 공연이 준비 되어있습니다</p>
+            </div>
+        </div>
+    </section>
+    <section class="fifth-wrap">
+        <h1>3GO'S FESTIVAL</h1>
+        <div class="fifth-wrap-left">
+            <h1>쓰리고만의 또 다른 개성</h1>
+            <p>쓰리고 패밀리들의 공연과 다양한 행사가 함께하는 쓰리고 페스티벌!</p>
+        </div>
+        <div class="fifth-wrap-right">
+            <iframe width="655" height="400" src="https://www.youtube.com/embed/4UmBEq-VM5U" frameborder="0" gesture="media" allowfullscreen></iframe>
+        </div>
+                <button type="button" id="more-btn-festival" class="btn more-festival-btn">VIEW MENU</button>
 
     </section>
 
 
 
 
-    <!--    스크립트 파일-->
-    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../js/script.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <!--    3번째 섹션 슬라이드 스크립트-->
+
     <script type="text/javascript">
         $(document).ready(function() {
             $('.third-wrap-products').slick({
-                arrow:true,
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 1000,
+            });
+        });
+        $(document).ready(function() {
+            $('.third-wrap-products-1').slick({
+                arrow: true,
                 infinite: true,
                 slidesToShow: 3,
                 slidesToScroll: 3,
@@ -229,6 +274,12 @@
         });
 
     </script>
+
+    <!--   src링크 스크립트 파일-->
+    <script type="text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
 
 </body>
 
