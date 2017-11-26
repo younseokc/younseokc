@@ -537,21 +537,24 @@ ul.tabs li.active {
     position: relative;
     font-weight: 300;
     top: 20px;
+    margin-top: 0px;
 }
 .fifth-wrap > .fifth-wrap-left{
-    width: 40%;
+    width: 45%;
     float: left;
-    left: 8%;
+    left: 2.5%;
     margin-top: 8%;
     position: absolute;
     text-align: center;
 }
 .fifth-wrap > .fifth-wrap-left > h1{
-
+    font-size: 43px;
     color: #EE4A56;
 }
 .fifth-wrap > .fifth-wrap-left > p{
     color: #616161;
+    font-size: 30px;
+    margin-top: 30px;
 
 }
 
@@ -580,4 +583,23 @@ ul.tabs li.active {
     position: absolute;
     bottom: 20px;
     left: 44.25%;
+}
+footer{
+    width: 100%;
+    height: auto;
+}
+footer > .footer-img{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+footer > .footer-img > img{
+    width: 24.85%;
+    box-sizing: border-box;
+}
+
+footer > .footer-content{
+    width: 100%;
+    height: 172px;
+    background: #ccc;
 }
